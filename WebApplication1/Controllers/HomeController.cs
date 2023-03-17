@@ -25,7 +25,7 @@ public class HomeController : Controller
 
     public IActionResult Intro()
     {
-        return Content("This is the intro page.");
+        return View();
     }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
